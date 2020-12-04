@@ -1,3 +1,3 @@
-var username=prompt("give me your username")
-var welcomeMsg = "this script works " + username
-alert(welcomeMsg);
+var btnTranslate = document.querySelector("#btn-translate");
+// creating a ref for button from html in js
+console.log(btnTranslate)

@@ -20,10 +20,14 @@ var btnTranslate = document.querySelector("#btn-translate");
 
 var txtInput = document.querySelector("#txt-input");
 console.log(txtInput);
-
-btnTranslate.addEventListener("click", clickHandler())
+console.log(txtInput.value);
+// returns empty coz it returns a value only after you click.
+btnTranslate.addEventListener("click", clickHandler)
+// btnTranslate.addEventListener("click", clickHandler() )---> dnt use clickHandler()
+// cos clickHandler() will immediately evoke the fnc
+// while clickHandler would only evoke if you actually click
 
 function clickHandler() {
     console.log("you clicked");
-    console.log("input",txtInput.value);
+    console.log("input1",txtInput.value);
 };

@@ -1,0 +1,72 @@
+
+body {
+    min-height: 100%;
+    background-image: url(https://cdn.pixabay.com/photo/2016/05/04/17/47/minion-1372347__340.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: center center;
+}
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 600px;
+    margin: auto;
+}
+h2{ 
+    color : white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+textarea {
+    width: 80%;
+    height: 15vh;
+    margin: 2rem;
+    display: block;
+    padding: 1rem;
+    background-color: transparent; 
+    border: 1px solid white;
+    font-weight: bolder; 
+    font-size: larger; 
+    text-align: center;
+    color:  #ff5e00;
+}
+
+
+#output {
+    width: 80%;
+    height: 15vh;
+    margin: 2rem;
+    border: 1px solid white;
+    padding: 1rem;
+    font-weight: bolder;
+    font-size: larger;
+    text-align:center;
+    color : #ff5e00;
+}
+
+.info{
+    color: white;
+}
+
+#btn-translate {
+    position: absolute;
+    left: 45%
+}
+
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+
+/* /* .container {
+        left :30%;
+        position : absolute;
+        border: 1px solid black;
+        /* -ms-transform: translateX(-20%);
+        transform: translateX(-20%); 
+}  */

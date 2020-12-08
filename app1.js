@@ -55,6 +55,45 @@ function clickHandler(){
 
 
 
+// part6
+
+// everything below this is done in browser console
+// for going to next line in console give shift enter
+// var url1=" https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json?text=I am aneena"
+// // this is the url for backend
+// undefined
+// console.log(url1)
+// VM246:1  https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json?text=I am aneena
+// undefined
+// function constructURL(text){
+//     return "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json?text="+text }
+// undefined
+// var text1="I am batman"
+// undefined
+// var text2="I am ironman"
+// undefined
+// var text3="I am shakthiman"
+// undefined
+// function doFetch(text){
+//     fetch(constructURL(text)).
+//           then(response=>response.json()).
+//           then(json=>console.log(json))
+// VM850:4 Uncaught SyntaxError: Unexpected end of input
+// function doFetch(text){
+//     fetch(constructURL(text)).
+//           then(response=>response.json()).
+//           then(json=>console.log(json)) }
+// undefined
+// doFetch(text1)
+// undefined
+// VM862:4 {success: {…}, contents: {…}}contents: {translated: "Testing,  you are", text: "I am batman", translation: "yoda"}success: {total: 1}__proto__: Object
+// doFetch(text2)
+// undefined
+// VM862:4 {success: {…}, contents: {…}}contents: {translated: "Testing,  you are", text: "I am ironman", translation: "yoda"}success: {total: 1}__proto__: Object
+// doFetch(text3)
+// undefined
+// VM862:4 {success: {…}, contents: {…}}contents: {translated: "Testing,  you are", text: "I am shakthiman", translation: "yoda"}success: {total: 1}__proto__: Object
+
 
 
 

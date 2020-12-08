@@ -1,8 +1,20 @@
-header {
+/* header {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 body {
     min-height: 100%;
@@ -27,11 +39,23 @@ body {
     margin: auto;
 }
 
-h2{ 
-    color : black;
+/* .center .text{ 
+    background-color: black;
+    color : yellow; 
     text-align: center;
     font-weight: bolder;
-    font-size: larger;
+    font-size: larger; 
+     margin :auto; 
+    display:inline-flex;
+} */
+
+.text{
+    background-color: black;
+    color:yellow;
+    display:inline-flex;
+    position:relative;
+    left:26%;
+    border-radius:5px;
 }
 
 textarea {

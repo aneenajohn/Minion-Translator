@@ -54,10 +54,12 @@ body {
     color:yellow;
     display:inline-flex;
     position:relative;
-    left:26%;
+    left:31%;
     border-radius:5px;
 }
-
+::placeholder{
+    color: #ff3300;
+}
 
 textarea {
     width: 80%;
